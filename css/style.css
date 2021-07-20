@@ -1,12 +1,31 @@
+/* Typography */
+h1 {
+    font-size: 1rem;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
 /* Header */
 header {
     background-color: #2c3e50; 
     color: white;
+    position: fixed;
+    width: 100%;
 }
 
 /* Main */
-
-/* Section Start Bootstrap */
-.start-bootstrap {
+.section-start,
+.section-about {
     background-color: #1abc9c;
+    color: white;
+}
+
+.section-start {
+    padding-top: 5rem;
+}
+.section-start img {
+    height:50%;
+}
+.section-portfolio img{
+    width: 100%;
 }
