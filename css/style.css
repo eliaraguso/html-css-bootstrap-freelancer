@@ -17,6 +17,7 @@ header {
     color: white;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 .fa-bars {
@@ -42,8 +43,10 @@ fa-star {
     color: white;
 }
 
+/* Section start */
 .section-start {
-    padding-top: 6rem;
+    margin-top: 70px;
+    padding-top: 20px;
 }
 .section-start img {
     height:50%;
@@ -68,6 +71,27 @@ fa-star {
 
 .section-start ul {
     margin-top: 30px;
+}
+
+/* Section portfolio */
+.fa-star {
+    font-size: 22px;
+}
+.section-portfolio .line {
+    background-color: #2c3e50;
+}
+
+.section-portfolio .fa-star {
+    color: #2c3e50;
+}
+
+.img-portfolio {
+    border-radius: 10px;
+}
+
+/* Section about */
+.section-about {
+    margin-top: 20px;
 }
 
 /* Footer */
