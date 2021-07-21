@@ -1,7 +1,7 @@
 /* Typography */
 h1 {
     font-size: 1rem;
-    line-height: 50px;
+    line-height: 70px;
     vertical-align: middle;
 }
 
@@ -19,6 +19,22 @@ header {
     width: 100%;
 }
 
+.fa-bars {
+    line-height: 70px;
+    color: white;
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+fa-star {
+    color: white;
+}
+
 /* Main */
 .section-start,
 .section-about {
@@ -27,13 +43,31 @@ header {
 }
 
 .section-start {
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 .section-start img {
     height:50%;
 }
 .section-portfolio img{
     width: 100%;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+
+.section-start li {
+    font-size: 14px;
+}
+
+.section-start h2 {
+    padding: 20px 0;
+}
+
+.section-start ul {
+    margin-top: 30px;
 }
 
 /* Footer */
